@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>FAQ - Website Du Lịch</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="Logo" width="150" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Trang chủ</a></li>
+            <li class="nav-item"><a class="nav-link" href="./service.html">Dịch vụ</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">Về chúng tôi</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./faq.html">FAQ</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container my-4">
+      <h2 class="text-center">Câu hỏi thường gặp (FAQ)</h2>
+      <hr />
+      <div class="accordion" id="faqAccordion">
+        <div class="card">
+          <div class="card-header" id="faq1">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapse1"
+                aria-expanded="true"
+                aria-controls="collapse1"
+              >
+                1. Tôi có thể trả tiền thông qua PayPal?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapse1"
+            class="collapse show"
+            aria-labelledby="faq1"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              Được. Chúng tôi chấp nhận việc chi trả qua PayPal.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="faq2">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapse2"
+                aria-expanded="false"
+                aria-controls="collapse2"
+              >
+                2. Tôi có thể hủy bỏ đặt hàng?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapse2"
+            class="collapse"
+            aria-labelledby="faq2"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              Được. Bạn có thể hủy bỏ đặt hàng bất khi nào bạn muốn.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="faq3">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapse3"
+                aria-expanded="false"
+                aria-controls="collapse3"
+              >
+                3. Chính sách hoàn tiền như thế nào?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapse3"
+            class="collapse"
+            aria-labelledby="faq3"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              Bạn có thể nhận được tiền hoàn trả 100% bất kể khi nào và vì bất
+              kỳ lý do gì.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="faq4">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapse4"
+                aria-expanded="false"
+                aria-controls="collapse4"
+              >
+                4. Làm thế nào để tôi có thể nhận được hóa đơn?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapse4"
+            class="collapse"
+            aria-labelledby="faq4"
+            data-parent="#faqAccordion"
+          >
+            <div class="card-body">
+              Bạn có thể nhận được hóa đơn thông qua email hoặc thư tín.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <footer class="bg-dark text-white text-center py-4">
+      <p>© Bản quyền thuộc về Công ty Du lịch Bụi.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="./index.html" class="text-white">Trang chủ</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="./service.html" class="text-white">Dịch vụ</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="./about.html" class="text-white">Về chúng tôi</a>
+        </li>
+        <li class="list-inline-item"><a href="#" class="text-white">FAQ</a></li>
+        <li class="list-inline-item">
+          <a href="./contact.html" class="text-white">Liên hệ</a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
